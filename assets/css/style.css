@@ -1,0 +1,385 @@
+
+.canvas{
+    border:1px black dotted;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px
+}
+
+#canvas-draft{
+    background-color: transparent;
+}
+body{
+    overflow:hidden;
+}
+#canvas-container{
+    height:734px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.literally, .literally * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.literally {
+    position: relative;
+    background-color: #ddd;
+    min-height: 895px;
+    user-select: none;
+    width: 1606px;
+    margin-bottom:1em;
+}
+    
+div{
+    display: block;
+
+}
+
+body{
+    line-height: 145%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    color: #000000;
+}
+
+.literally .lc-drawing.with-gui {
+    right: 0;
+    left: 162px;
+    cursor: default;
+
+}
+
+    .literally.toolbar-at-top .lc-drawing {
+        bottom: 0;
+        top: 31px;
+    }
+
+
+    .literally .lc-drawing {
+        right: 0;
+        left: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .literally>* {
+        position: absolute;
+    }
+
+    .literally .lc-picker {
+        /* z-index: 2; */
+        border-right: 1px solid #555;
+    }
+
+    .literally .lc-picker {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 162px;
+        background-color: #e6e6e6;
+    }
+
+    /* .literally .lc-picker .toolbar-button.selected:not(.disabled) {
+        background-color: #a1d9fe;
+    } */
+
+    .literally .lc-picker .lc-pick-tool, .literally .lc-picker .lc-undo, .literally .lc-picker .lc-redo, .literally .lc-picker .lc-zoom-in, .literally .lc-picker .lc-zoom-out
+    {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .literally .lc-picker .thin-button {
+        cursor: pointer;
+        float: left;
+        position: relative;
+  
+    }
+
+    .literally .lc-picker .toolbar-button {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .literally .lc-picker .toolbar-button {
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        margin: 2px;
+        padding: 0;
+        cursor: pointer;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 3px;
+    }
+
+    body > div > div.lc-picker.container > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    body > div > div.lc-picker.container > div>div{
+        padding: 0.7em 3.5em;
+    }
+
+    .literally .color-well {
+        font-size: 10px;
+        float: left;
+        width: 80px;
+    }
+
+    label {
+        cursor: default;
+    }
+
+
+    Style Attribute {
+         float: left;
+         text-align: center;
+     }
+  
+
+
+    element.style {
+        left: 50%;
+        top: 50%;
+    }
+
+    .literally .color-well-color-container .color-well-checker {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        background-color: black;
+    }
+
+    .literally .color-well-color-container {
+        border: 2px solid transparent;
+        border-radius: 3px;
+        border: 1px solid #aaa;
+        position: relative;
+        width: 28px;
+        height: 28px;
+        margin: 1px auto;
+        overflow: visible;
+    }
+
+    .literally .color-well-color-container .color-well-color {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 3px;
+    }
+
+    .literally .lc-picker .lc-pick-tool, .literally .lc-picker .lc-undo, .literally .lc-picker .lc-redo, .literally .lc-picker .lc-zoom-in, .literally .lc-picker .lc-zoom-out {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .literally .lc-picker .thin-button {
+        cursor: pointer;
+        float: left;
+        position: relative;
+    }
+
+    .literally .lc-picker .toolbar-button {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .literally .lc-picker .toolbar-button {
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        margin: 2px;
+        padding: 0;
+        cursor: pointer;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 3px;
+    }
+
+    .literally .lc-picker .lc-pick-tool, .literally .lc-picker .lc-undo, .literally .lc-picker .lc-redo, .literally .lc-picker .lc-zoom-in, .literally .lc-picker .lc-zoom-out {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #row2, #row3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+
+    #container2{
+        padding: 1em 3.5em;
+     
+    }
+
+    #row3{
+        padding: 1em 1.5em; 
+    }
+
+
+    #drawing-quadratic-curve>svg{
+        width:26px;
+        height:26px;
+    }
+
+    #drawing-paint > svg {
+        width:26px;
+        height:26px;
+    }
+
+    #drawing-eye-dropper > svg{
+        width:26px;
+        height:26px;
+    }
+
+    #drawing-pencil-rotating-strokes > svg{
+        width:36px;
+        height:36px;
+    }
+ 
+    .literally.toolbar-at-top .lc-options {
+        top: 0;
+
+    }
+    .literally .lc-options {
+        z-index: 1;
+        right: 0;
+        left: 162px;
+    }
+    .literally .horz-toolbar {
+        height: 31px;
+        background-color: #ddd;
+    }
+    .literally>* {
+        position: absolute;
+    }
+
+
+    .literally .horz-toolbar .square-toolbar-button {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .literally .horz-toolbar .square-toolbar-button {
+        border: 2px solid transparent;
+        border-radius: 3px;
+        margin-right: 1px;
+        border: 1px solid #aaa;
+        width: 28px;
+        height: 28px;
+        float: left;
+        position: relative;
+    }
+
+       
+      .horz-toolbar{
+        position:relative;
+        right: 162px;
+     } 
+
+
+    svg>Attributes Style {
+        width: 26;
+        height: 26;
+    }
+
+    user agent stylesheet
+    svg:not(:root), symbol, image, marker, pattern, foreignObject {
+        overflow: hidden;
+    }
+    user agent stylesheet
+    html|* > svg {
+        transform-origin: 50% 50% 0px;
+    }
+    user agent stylesheet
+    * {
+        transform-origin: 0px 0px 0px;
+    }
+
+
+
+    user agent stylesheet
+    * {
+        transform-origin: 0px 0px 0px;
+    }
+   
+
+    #dottedPicture{
+        width:26px;
+        height:26px;
+    }
+
+   
+    .svg-inline--fa.fa-w-14 {
+        width: 26px;
+        height: 26px;
+    }
+
+    .svg-inline--fa.fa-w-18 {
+        width: 26px;
+        height: 26px;
+    }
+
+    #width1, #width2, #width3, #width4, #width5, #width6, #dotted{
+        opacity: 0;
+    }
+
+
+
+    input[type="file"] {
+        position: absolute;
+        width: 4px;
+        height: 2px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+    .custom-file-upload {
+    
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+    }
+
+    #container2>div{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    #drawing-undo>svg, #drawing-redo>svg, #drawing-zoom-in >svg, #drawing-zoom-out>svg{
+
+        width: 26px;
+        height: 26px;
+    
+    } 
+
+    #drawing-pencil-random-dots > svg, #drawing-pencil-rotating-stars>svg, #drawing-polygon>svg {
+        width: 30px;
+        height: 30px;
+
+    }
+
+
+   
+
+    
+  
